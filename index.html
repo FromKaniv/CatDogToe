@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<title>😺 CatDogToe</title>
+</head>
+
+<body>
+<div class="wrapper">
+	<!-- <div id="openModal" class="modal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h3 class="modal-title">Скіни</h3>
+	        <a href="#close" title="Закрити" class="button-4"><span class="material-symbols-outlined">close</span></a>
+	      </div>
+	      <div class="modal-body">
+	      	    <a class="emojipackChooser" onclick="players='catVSdog';player1='😺';player2='🐶';restart();">😺🐶</a>
+	            <a class="emojipackChooser" onclick="players='classic';player1='❌';player2='⭕';restart();">❌⭕</a>
+	            <a class="emojipackChooser" onclick="players='policeVSfire';player1='🚓';player2='🚒';restart();">🚓🚒</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-->
+	<h1 class="catDogToeLogo">CatDogToe</h1>
+	<div class="grid">
+		<input onclick="set(block1on1)" class="gridElement" id="1.1" type="button" value="but"></input>
+		<input onclick="set(block1on2)" class="gridElement" id="1.2" type="button" value="but"></input>
+		<input onclick="set(block1on3)" class="gridElement" id="1.3" type="button" value="but"></input>
+		<br>
+		<input onclick="set(block2on1)" class="gridElement" id="2.1" type="button" value="but"></input>
+		<input onclick="set(block2on2)" class="gridElement" id="2.2" type="button" value="but"></input>
+		<input onclick="set(block2on3)" class="gridElement" id="2.3" type="button" value="but"></input>
+		<br>
+		<input onclick="set(block3on1)" class="gridElement" id="3.1" type="button" value="but"></input>
+		<input onclick="set(block3on2)" class="gridElement" id="3.2" type="button" value="but"></input>
+		<input onclick="set(block3on3)" class="gridElement" id="3.3" type="button" value="but"></input>
+	</div>
+	<br>
+	<br>
+	<div class="staterestart">
+		<h2 id="state" class="statetext"></h2>
+		<button class="button-4" role="button" onclick="restart(true);"><span class="material-symbols-outlined">refresh</span></button>
+		<button class="button-4" role="button" onclick="reverseVolume();"><span id="volume_upid" class="material-symbols-outlined">volume_up</span></button>
+	</div>
+	<script src="code.js"></script>
+</div>
+</body>
+</html>
+
+
